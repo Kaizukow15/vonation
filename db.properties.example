@@ -1,0 +1,11 @@
+# Copy this file to db.properties (same folder as the project root) and fill in your values.
+
+# --- Neon (cloud) ---
+db.url=jdbc:postgresql://YOUR-NEON-HOST/neondb?sslmode=require
+db.user=YOUR_NEON_USER
+db.password=YOUR_NEON_PASSWORD
+
+# --- Local PostgreSQL (use this instead if you want the local database) ---
+# db.url=jdbc:postgresql://localhost:5432/vonation
+# db.user=postgres
+# db.password=your_password_here
