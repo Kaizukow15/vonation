@@ -43,11 +43,3 @@ campaign_photos/
 announcement_photos/
 .env
 src/schema.sql
-
-node_modules/
-.next/
-.vercel/
-.env
-.env.*
-!.env.example
-
