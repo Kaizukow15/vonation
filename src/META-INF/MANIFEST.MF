@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Main-Class: Launcher
+Class-Path: javafx-swt.jar javafx.web.jar javafx.base.jar javafx.fxml.ja
+ r javafx.media.jar javafx.swing.jar jdk.jsobject.jar javafx.controls.ja
+ r javafx.graphics.jar jfx.incubator.input.jar jfx.incubator.richtext.ja
+ r postgresql-42.7.14.jar
+
