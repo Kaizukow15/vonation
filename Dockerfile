@@ -12,6 +12,9 @@ RUN apt-get update && apt-get install -y \
     websockify \
     && rm -rf /var/lib/apt/lists/*
 
+# Redirect the main URL straight to the app
+RUN echo '<meta http-equiv="refresh" content="0; url=vnc.html?autoconnect=true&resize=scale">' > /usr/share/novnc/index.html
+
 WORKDIR /app
 COPY render-app/ /app/
 COPY start.sh /start.sh
